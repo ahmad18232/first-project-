@@ -1,0 +1,6 @@
+{
+  "name": "Movie Ticket Booking System",
+  "description": "A modern, accessible movie ticket booking web app with claymorphism effects, Material Design elements, and distinct Customer and Admin dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

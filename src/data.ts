@@ -1,0 +1,64 @@
+import { Movie } from './types';
+
+export const INITIAL_MOVIES: Movie[] = [
+  {
+    id: "M1",
+    title: "Fast and Furious X",
+    price: 1000,
+    seats: 10,
+    totalSeats: 10,
+    showTime: "02-07-2026 08:00 PM",
+    genre: "Action / Thriller",
+    duration: "141 mins",
+    rating: "★ 7.8",
+    posterUrl: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "M2",
+    title: "Avengers: Eternity",
+    price: 1500,
+    seats: 8,
+    totalSeats: 8,
+    showTime: "03-07-2026 10:30 PM",
+    genre: "Sci-Fi / Action",
+    duration: "181 mins",
+    rating: "★ 8.9",
+    posterUrl: "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "M3",
+    title: "The Silent Hour",
+    price: 800,
+    seats: 12,
+    totalSeats: 12,
+    showTime: "01-07-2026 06:00 PM",
+    genre: "Mystery / Drama",
+    duration: "115 mins",
+    rating: "★ 7.4",
+    posterUrl: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "M4",
+    title: "Inside Out 3",
+    price: 1200,
+    seats: 20,
+    totalSeats: 20,
+    showTime: "04-07-2026 04:00 PM",
+    genre: "Animation / Comedy",
+    duration: "102 mins",
+    rating: "★ 8.5",
+    posterUrl: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "M5",
+    title: "Interstellar: Reborn",
+    price: 1400,
+    seats: 15,
+    totalSeats: 15,
+    showTime: "05-07-2026 08:30 PM",
+    genre: "Sci-Fi / Adventure",
+    duration: "169 mins",
+    rating: "★ 9.2",
+    posterUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=600"
+  }
+];
